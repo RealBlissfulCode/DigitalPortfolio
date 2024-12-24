@@ -5,7 +5,7 @@ import Keypad from './Keypad';
 import PasscodeDisplay from './PasscodeDisplay';
 import './styles.css';
 
-const CORRECT_PASSCODE = '2121';
+const CORRECT_PASSCODE = Thought I'd forget?;
 const MAX_LENGTH = 4;
 
 export default function DecryptionPopup() {
