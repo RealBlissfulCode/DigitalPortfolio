@@ -1,0 +1,24 @@
+.snap-section {
+  min-height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  position: relative;
+  margin: 4rem 0;
+}
+
+/* Hide scrollbar but keep functionality */
+.snap-y {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+.snap-y::-webkit-scrollbar {
+  display: none;
+}
